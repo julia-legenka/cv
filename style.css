@@ -14,8 +14,16 @@ img{
   font-weight: bold;
 }
 
-#container{
+#container,
+.item {
   display: flex;
+}
+
+.item .l {
+  width: 100px;
+}
+.item .r {
+  width: 100%
 }
 
 aside {
@@ -26,14 +34,12 @@ aside {
 h1{
   text-indent: 188px;
 }
-
-.line{
+main h2{
   border-bottom: solid 2px #0431B4;
   margin: 1px;
-  width: 100%;
-  height: 5px;
 }
 
-.indent{
-margin: 1px;
+.end{
+  font-weight: bold;
+  text-align: center;
 }
